@@ -1,3 +1,5 @@
+import os
+import uvicorn
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from datetime import datetime
@@ -21,3 +23,7 @@ def get_info():
         "current_datetime": datetime.now(pytz.utc).isoformat(),
         "github_url": "https://github.com/jackmarley254/hng12-backend-task"
     }
+
+if __name__ == "__main__":
+    port = int(os.getenv("PORT", 8000))  # Default to 8000 if PORT not set
+    uvicorn.run(app, host="0.0.0.0", port=port)

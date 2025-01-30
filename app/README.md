@@ -69,9 +69,9 @@ curl -s https://hng12-backend-stage-zero.vercel.app
 3. Send a `GET` request.
 4. View the JSON response
 
-## Hire Node.js Developers
+## Hire Python Developers
 
-If you're looking to hire Node.js developers, check out [HNG Tech - Hire Node.js Developers](https://hng.tech/hire/nodejs-developers).
+If you're looking to hire Python developers, check out [HNG Tech - Hire Python Developers](https://hng.tech/hire/python-developers).
 
 ## 📝 License
 
